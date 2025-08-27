@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLP Week3 Assignment</title>
+    <!-- stylesheet -->
+     <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div id="top">
+            <h1>Demonstration of CSS Knowledge</h1>
+        </div>
+        <nav>
+            <a href="index.html">
+                <h2 class="logo">Week<span class="logo-alt">3</span> Assignment</h2>
+            </a>
+
+            <ul class="navbar">
+                <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="services">
+            <h3 class="section-title">Sevices</h3>
+            <div class="service-parent">
+                <!-- service 1 -->
+                <div class="service service-1">
+                    <div class="title-panel">
+                        <h3 class="title">Mobile Apps</h3>
+                    </div>
+                    <div class="service-details">
+                        <ul>
+                            <li>Free UI/UX Designs</li>
+                            <li>3 Months Free Maintenance</li>
+                            <li>Discounted Updates</li>
+                            <li>4 Months Delivery</li>
+                        </ul>
+                    </div>
+                    <div class="service-action">
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+                <!-- service 2 -->
+                <div class="service service-2">
+                    <div class="title-panel">
+                        <h3 class="title">Web Development</h3>
+                    </div>
+                    <div class="service-details">
+                        <ul>
+                            <li>Free UI/UX Designs</li>
+                            <li>3 Months Free Maintenance</li>
+                            <li>3 Free Updates</li>
+                            <li>3 Months Delivery</li>
+                        </ul>
+                    </div>
+                    <div class="service-action">
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+                <!-- service 3 -->
+                 <div class="service service-3">
+                    <div class="title-panel">
+                        <h3 class="title">UI/UX Design</h3>
+                    </div>
+                    <div class="service-details">
+                        <ul>
+                            <li>4 Free Designs</li>
+                            <li>Web and Mobile</li>
+                            <li></li>
+                            <li>Lorem, ipsum dolor.</li>
+                        </ul>
+                    </div>
+                    <div class="service-action">
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="contact-parent">
+                <div class="details-panel">
+                    <h2>Lorem ipsum dolor sit amet.</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus voluptas repellat consectetur dignissimos voluptatum.</p>
+                </div>
+                <div class="form-panel">
+                    <h3 class="form-title">Visitor's Contact Form</h3>
+                    <form action="#" method="post" aria-label="Contact form">
+                        <div class="input-group">
+                            <label for="name">Full name</label>
+                            <input type="text" name="name" pattern="^[A-Z][a-z]+s[A-Z][a-z]+$" title="Capitalize names e.g. John Doe" id="name" placeholder="enter name" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" placeholder="enter your email" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" required placeholder="enter message" aria-label="message"></textarea>
+                        </div>
+                        <div class="input-group">
+                            <button type="submit" aria-label="Submit contact form">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Bonn Umunna PLP Week 3 Assignment &copy; - All rights reserved</p>
+    </footer>
+</body>
+
+</html>
